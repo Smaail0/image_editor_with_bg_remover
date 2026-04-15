@@ -37,7 +37,7 @@ def get_session(model: str = "isnet-general-use"):
 
 def clean_alpha_edges(
     image: Image.Image,
-    alpha_threshold: int = 190,
+    alpha_threshold: int = 130,
     grow: int = 1,
     blur: float = 0.45,
     hole_fill: int = 0,
